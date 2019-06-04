@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>this is paralex web</title>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+<body>
+	
+
+  <section id="main">
+<nav>
+    <div class="topnav" id="myTopnav">
+      <a href="#main" class="active">Home</a>
+      <a href="#about-me">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact-me">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+        
+    </div>
+
+</nav>
+
+<div id="profile-home">
+  <img src="image/sanjeev.jpg" class="aboutme-img">
+<div class="profile">
+  <h1>Sanseepan Rajakaruna</h1>
+<h3>Front-end developer</h3>
+</div>
+<div>
+
+
+  </section>
+
+
+
+  <section id="about-me">
+    <div class="about-main">
+        
+        <img src="image/home-png.png" class="profile-img">
+    </div>
+      <h1 class="well"> Welcome to my page</h1>
+        <p class="parah">Hello.. This is my Portfolio website so i would to like to say something about my self.  I'm sanseepan rajakaruna and 28 years old young Sri lankan. I'm a web designer particularly based in front-end development. I already have a good experience in HTML and CSS and also  this year i joined  the powercoders who are given the one of the best IT program in swizerland.There i learn even JavaScript, JQuary and JSON..etc.<br><br>
+        There are many things i like to do, to say,to experience.  I like to smell the wind coming from the ocean.I like pets especialy cats. My favaorite sport is cricket. If you want to more about me, please contact me. </h4></p>
+     <button class="btn"><i class="fa fa-download"><a href="image/sanseepan_CV.pdf" target="_blank"></i> Download my CV</a></button>
+  </section>
+  
+  
+  <section id="background-2"></section>
+  <section id="projects">
+    
+    <div class="project-main">
+    <img src="image/myprobaner.jpg" class="myprobaner">
+    </div>
+    <ul class="flex-container">
+  <img src="image/vtn.png" class="flex-item">
+  <img src="image/sj.png" class="flex-item">
+  <img src="image/light.png" class="flex-item">
+
+  
+  <img src="image/info.png" class="flex-item">
+  <img src="image/cal.png" class="flex-item">
+  <img src="image/project.jpg" class="flex-item">
+
+  <img src="image/project.jpg" class="flex-item">
+  <img src="image/project.jpg" class="flex-item">
+  <img src="image/project.jpg" class="flex-item">
+  
+</ul>
+    </section>
+
+    <section id="background-3"></section>
+
+
+    <section id="contact-me">
+      
+      <div class="contct-main">
+        <img src="image/contact.png" class="contactme-img">
+    
+    </div>
+      
+<div class="flex-container-2">
+  <div class="flex-item-2"><h4 >Getting in touch is easy!</h4><br>
+        <p>Paffensteig 4,<br>
+        3018  Bern, Switzerland</p>
+        <p>+41779918983</p>
+        <p>Sanjeevrajakaruna19@gmail.com</p>
+        <div class="social">
+
+          <h3>Follow me:</h3>
+
+     <a href="#"><img src="image/facebook.png" class="social-icon"></a>
+     <a href="#"><img src="image/google.png" class="social-icon"></a>
+     <a href="#"><img src="image/instagram.png" class="social-icon"></a>
+     <a href="#"><img src="image/twitter.png" class="social-icon"></a>
+     </div>
+   </div>
+
+
+  <div class="flex-item-2"><form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form></div>
+  
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2724.247179179894!2d7.394458715653724!3d46.9371808419725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e391e3d71822b%3A0xb990bff31ee7f030!2sPfaffensteig+4%2C+3018+Bern!5e0!3m2!1sen!2sch!4v1527234801639"  width="100%" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+  
+  </div>
+  </section>
+
+  <footer></footer>
+
+  <script>
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<script>
+$(".well").hide().fadeIn(3000);
+$(".parah").hide().fadeIn(5000);
+$(".aboutme-img").hide().fadeIn(5000);
+        
+    </script>
+
+    
+
+    <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+  $(function() {
+  $('.flex-container img').hover(
+    function(){
+      var $this = $(this);
+      $this.stop().animate({
+          
+          'height':'200px',
+          'top':'0px',
+          'left':'0px'
+        });
+    },
+    function(){
+      var $this = $(this);
+      $this.stop().animate({
+        
+        'height':'250px',
+        'top':'-66.5px',
+        'left':'-150px'
+        });
+    }
+  );
+});
+</script>
+	
+</body>
+</html>
